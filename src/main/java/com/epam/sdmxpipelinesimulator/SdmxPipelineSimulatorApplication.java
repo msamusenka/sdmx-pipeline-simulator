@@ -14,7 +14,7 @@ public class SdmxPipelineSimulatorApplication {
 
 
 	public static void main(String[] args) {
-		LOGGER.info("Starting SDMX pipeline 2");
+		LOGGER.info("Starting SDMX pipeline");
 
 		SpringApplication.run(SdmxPipelineSimulatorApplication.class, args);
 	}
