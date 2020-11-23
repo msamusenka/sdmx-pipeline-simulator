@@ -13,8 +13,8 @@ public class SdmxPipelineSimulatorApplication {
 	private final static Logger LOGGER = LoggerFactory.getLogger(SdmxPipelineSimulatorApplication.class);
 
 
-	public static void main(final String[] args) {
-		LOGGER.info("Starting SDMX pipeline 2");
+	public static void main(String[] args) {
+		LOGGER.info("Starting SDMX pipeline");
 
 		SpringApplication.run(SdmxPipelineSimulatorApplication.class, args);
 	}
